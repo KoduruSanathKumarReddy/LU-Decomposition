@@ -30,6 +30,13 @@ P,L,U = lu(a)
 print(L)
 print(U)
 ~~~
+```
+/*
+Program to solve the given matrix using LU Decompostion.
+Developed by: Koduru Sanath Kumar Reddy
+RegisterNumber: 21000648
+*/
+```
 ### To print X matrix (solution to the equations)
 ~~~
 import numpy as np
