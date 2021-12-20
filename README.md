@@ -21,7 +21,7 @@ Developed by: Koduru Sanath Kumar Reddy
 RegisterNumber: 21000648
 */
 ```
-# To print L and U matrix
+### To print L and U matrix
 ~~~
 import numpy as np
 from scipy.linalg import lu
@@ -30,7 +30,7 @@ P,L,U = lu(a)
 print(L)
 print(U)
 ~~~
-# To print X matrix (solution to the equations)
+### To print X matrix (solution to the equations)
 ~~~
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
