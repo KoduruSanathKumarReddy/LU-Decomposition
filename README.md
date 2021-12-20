@@ -42,7 +42,10 @@ print(x)
 ~~~
 
 ## Output:
-![lu decomposition]()
+### Problem 1
+![output1](p1.png)
+### Problem 2
+![output2](p2.png)
 
 
 ## Result:
