@@ -14,6 +14,9 @@ To write a program to find the LU Decomposition of a matrix.
 4. 
 
 ## Program:
+
+### To print L and U matrix
+~~~
 ```
 /*
 Program to find the LU Decomposition of a matrix.
@@ -21,14 +24,15 @@ Developed by: Koduru Sanath Kumar Reddy
 RegisterNumber: 21000648
 */
 ```
-### To print L and U matrix
-~~~
 import numpy as np
 from scipy.linalg import lu
 a=eval(input())
 P,L,U = lu(a)
 print(L)
 print(U)
+~~~
+
+### To print X matrix (solution to the equations)
 ~~~
 ```
 /*
@@ -37,8 +41,6 @@ Developed by: Koduru Sanath Kumar Reddy
 RegisterNumber: 21000648
 */
 ```
-### To print X matrix (solution to the equations)
-~~~
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
 a = eval(input())
